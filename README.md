@@ -297,7 +297,7 @@ The current implementation uses a text-based policy file and does not yet suppor
 
 ### Architecture
 
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshots/Architecture.png)
 
 Proposed architecture of the Shopify AI Customer Support Automation system. Customer tickets are processed through a FastAPI API, classified using Gemini, evaluated against business rules, enriched through Retrieval-Augmented Generation (RAG), and returned as structured responses. High-risk tickets are routed for human review.
 
