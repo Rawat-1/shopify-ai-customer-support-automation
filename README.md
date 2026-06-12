@@ -285,11 +285,18 @@ The current implementation uses a text-based policy file and does not yet suppor
 * ChromaDB-based vector search
 * Shopify webhook integration
 * Multi-agent workflows
-* CRM integration
 * Human-in-the-loop approval workflows
 * Conversation memory
 * Multi-language support
 * Cloud deployment
+
+---
+
+### Project Demonstration Video
+
+A brief walkthrough of the project, including the architecture, API demonstration and RAG workflow is available below:
+
+[Watch the Demo Video](https://drive.google.com/file/d/1Vm_5aQq7x3S9bgc9nis6x1SHrfZoocum/view?usp=sharing)
 
 ---
 
