@@ -341,7 +341,7 @@ This report describes the proposed architecture, tool selection rationale, infra
 
 This document evaluates OpenAI, Anthropic Claude, and Google Gemini across multiple dimensions including capabilities, pricing, scalability, ease of integration, limitations, and business use cases. The analysis was used to determine the most suitable AI platform for the prototype implementation.
 
-📄 [Comparative Analysis of AI Platforms](Comparative_Analysis_AI.pdf)
+📄 [Comparative Analysis of AI Platforms](docs/Comparative_Analysis_AI.pdf)
 
 ---
 
