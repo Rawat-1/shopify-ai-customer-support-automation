@@ -297,31 +297,31 @@ The current implementation uses a text-based policy file and does not yet suppor
 
 ### Architecture
 
-![Architecture](screenshots/Architecture.png)
+![Architecture](Screenshots/Architecture.png)
 
 Proposed architecture of the Shopify AI Customer Support Automation system. Customer tickets are processed through a FastAPI API, classified using Gemini, evaluated against business rules, enriched through Retrieval-Augmented Generation (RAG), and returned as structured responses. High-risk tickets are routed for human review.
 
 ### Project Structure
 
-![Project Structure](screenshots/VS_Code_explorer.png)
+![Project Structure](Screenshots/VS_Code_explorer.png)
 
 Project structure illustrating separation of concerns. Independent modules handle ticket classification, policy retrieval, response generation, API orchestration, and configuration management.
 
 ### RAG Demo
 
-![RAG Demo](screenshots/Refund_RAG.png)
+![RAG Demo](Screenshots/Refund_RAG.png)
 
 The response references the store-specific refund policy of 17 days retrieved from the knowledge base rather than relying solely on model knowledge.
 
 ### Escalation Workflow Demo
 
-![RAG Demo](screenshots/Escalation.png)
+![RAG Demo](Screenshots/Escalation.png)
 
 Business-rule evaluation example. Refund requests exceeding $500 are automatically classified as high priority and escalated for human review, demonstrating policy-driven decision making.
 
 ### Running API
 
-![Running API](screenshots/Terminal.png)
+![Running API](Screenshots/Terminal.png)
 
 FastAPI application processing customer support requests and returning successful responses.
 
